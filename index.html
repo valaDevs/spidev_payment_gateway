@@ -10,6 +10,97 @@
 </head>
 <body>
     
+    <section id="main" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header bg-info text-center">payment info</div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><h2 class="text-success"> 500,000 <i class="bx bx-money"></i> </h2> dollars</li>
+                                <li class="list-group-item">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sed natus cumque nisi soluta accusantium at laboriosam suscipit, quis quisquam dicta nobis. Error, nihil quas ea non voluptatibus molestias perferendis!
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bx bxl-paypal fs-1 text-danger"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header bg-warning text-center">Spidev Payment Gateway</div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="card-title"> <i class="bx bx-credit-card"></i>  Card Number :</div>
+                                    <div class="col-sm-3"><input type="text" class="num-active form-control"></div>
+                                    <div class="col-sm-3"><input type="text" class="num-active form-control"></div>
+                                    <div class="col-sm-3"><input type="text" class="num-active form-control"></div>
+                                    <div class="col-sm-3"><input type="text" class="num-active form-control"></div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="card-title"><i class="bx bxs-lock"></i> Second Passwpord :</div>
+                                    <div class="col-md-7">
+                                        <input type="text" class="num-active form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="card-title"><i class="bx bxs-credit-card-front"></i> CVV2:</div>
+                                    <div class="col-md-7">
+                                        <input type="text" class="num-active form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="card-title"><i class="bx bxs-lock-open"></i> Capcha:</div>
+                                    <div class="col-md-5">
+                                        <input type="text" class="num-active form-control">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <input type="text" class="form-control" disabled id="cap">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button class="btn btn-primary" id="btn-cap" type="button"><i class="bx bx-refresh fs-5"></i></button>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="card-title"><i class="bx bxs-calendar"></i> Date :</div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="num-active form-control" placeholder="Year">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="num-active form-control" placeholder="Month">
+                                    </div>
+                                </div>
+
+                                
+                                <div class="row mt-3">
+                                    <div class="col-md-8">
+                                        <div class="card-title"><i class="bx bxs-envelope"></i> Email(optional):</div>
+                                        <input type="email" class="num-active form-control">
+                                    </div>
+                                </div>
+
+                                <div class="btn-group d-flex mt-3">
+                                    <a href="" class="btn btn-success">Pay <i class="bx bx-check"></i> </a>
+                                    <a href="" class="btn btn-danger">Cancel <i class="bx bx-x"></i></a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
     <script src="main.js"></script>
 </body>
 </html>
